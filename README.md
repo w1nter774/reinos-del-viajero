@@ -3,7 +3,7 @@
 Mundo de fantasía donde eres el **Viajero Interdimensional**: despiertas en una gran capital, eliges raza, subes de nivel en mazmorras, vendes tu botín al Gremio y saltas entre mundos llenos de castillos, ruinas futuristas, NPC y monstruos.
 
 - Minecraft **1.20.1** · Forge **47.4.29** · 89 archivos (mods, dependencias, Fresh Animations y shader)
-- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.0.0.mrpack
+- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.1.0.mrpack
 - **Launcher:** https://prismlauncher.org/download/windows/
 
 ## Cómo instalarlo
@@ -67,6 +67,15 @@ Detalle del Viajero Interdimensional:
 | Dracónido | Inmune al fuego y la lava, +30% magia de fuego, +2 armadura | — (raza fuerte) |
 | Celestial | Cae lento y sin daño, +25% magia sagrada | −2 de vida |
 
+**Razas legendarias.** Tienen una **habilidad racial** en la tecla **J** (se cambia en *Opciones → Controles → Arcanum del Viajero*), con animación del cuerpo y efectos 3D:
+
+| Raza | Habilidad racial (J) | Pasivas |
+|---|---|---|
+| **Deidad Primordial** (tipo dios) | **Apoteosis** (60 s): te elevas envuelto en un aura dorada y desatas zarcillos de oro, una onda gigante y rayos sobre todos los enemigos en 20 bloques (30 de daño) | Vuelo libre, +40 vida, +10 armadura, +6 dureza, +8 daño, +40% velocidad, inamovible, +500 maná, +100% poder de hechizos, −50% recarga, inmune a fuego y caídas, regeneración II y saciedad constantes |
+| **Vampiro Ancestral** | **Festín de Sangre** (20 s): zarcillos de sangre en 3D se clavan en los enemigos a 12 bloques, los desangran y te curan | Cada golpe te cura 1 corazón, +8 vida, +5 daño, +20% velocidad, visión nocturna, +50% magia de sangre |
+| **Titán** | **Pisotón Sísmico** (12 s): onda sísmica de roca que lanza por los aires a los enemigos (12 de daño) | +30 vida, +8 armadura, +4 dureza, +6 daño, inamovible, −10% velocidad |
+| **Elemental de Tormenta** | **Ira de la Tormenta** (25 s): 3 s de relámpagos ramificados sobre los enemigos (10 de daño cada uno) | +40% velocidad, +2 velocidad de ataque, +50% magia de rayo, inmune a rayos y caídas |
+
 **Poderes del Viajero** (teclas en *Opciones → Controles → Origins*):
 
 - **Salto entre mundos** (poder primario, 30 s de recarga): abre una grieta al siguiente mundo del ciclo **Superficie → Aether → Everbright → Everdawn → Undergarden → Otherside → Nether → Superficie**, con partículas de portal y sonido, y te deja en suelo seguro. **Agachado** te devuelve a la Superficie.
@@ -81,7 +90,7 @@ Kit inicial: libro de hechizos de cobre, cuaderno de Ars Nouveau, brújulas de e
 **Arcanum del Viajero** es un mod hecho para este pack. Empiezas con el **Báculo del Viajero** en el kit, y también se fabrica con 2 palos, 2 fragmentos de amatista y 1 ojo de ender en diagonal.
 
 - **Clic derecho**: lanza el hechizo elegido. **Agachado + clic derecho**: cambia de hechizo.
-- Cada hechizo tiene una animación propia del cuerpo (playerAnimator) y una coreografía de partículas que ven todos los jugadores cercanos.
+- Cada hechizo tiene una animación propia del cuerpo (playerAnimator), una coreografía de partículas y **efectos 3D sólidos** dibujados por el mod: zarcillos lisos que se ramifican y se mecen con cel-shading y contorno de tinta, domos de explosión de luz, ondas expansivas, rayos con hélices, relámpagos y auras; además temblor de cámara, destellos de impacto, golpe de zoom y líneas de velocidad, estilo anime. Los ven todos los jugadores cercanos.
 
 | Hechizo | Animación | Efecto | Recarga |
 |---|---|---|---|
