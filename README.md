@@ -3,7 +3,7 @@
 Mundo de fantasía donde eres el **Viajero Interdimensional**: despiertas en una gran capital, eliges raza, subes de nivel en mazmorras, vendes tu botín al Gremio y saltas entre mundos llenos de castillos, ruinas futuristas, NPC y monstruos.
 
 - Minecraft **1.20.1** · Forge **47.4.29** · 89 archivos (mods, dependencias, Fresh Animations y shader)
-- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.1.0.mrpack
+- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.2.0.mrpack
 - **Launcher:** https://prismlauncher.org/download/windows/
 
 ## Cómo instalarlo
@@ -90,7 +90,7 @@ Kit inicial: libro de hechizos de cobre, cuaderno de Ars Nouveau, brújulas de e
 **Arcanum del Viajero** es un mod hecho para este pack. Empiezas con el **Báculo del Viajero** en el kit, y también se fabrica con 2 palos, 2 fragmentos de amatista y 1 ojo de ender en diagonal.
 
 - **Clic derecho**: lanza el hechizo elegido. **Agachado + clic derecho**: cambia de hechizo.
-- Cada hechizo tiene una animación propia del cuerpo (playerAnimator), una coreografía de partículas y **efectos 3D sólidos** dibujados por el mod: zarcillos lisos que se ramifican y se mecen con cel-shading y contorno de tinta, domos de explosión de luz, ondas expansivas, rayos con hélices, relámpagos y auras; además temblor de cámara, destellos de impacto, golpe de zoom y líneas de velocidad, estilo anime. Los ven todos los jugadores cercanos.
+- Cada hechizo tiene una animación propia del cuerpo (playerAnimator), una coreografía de partículas y **efectos 3D sólidos** dibujados por el mod: zarcillos lisos que se ramifican y se mecen con cel-shading y contorno de tinta, domos de explosión de luz, ondas expansivas, rayos con hélices, relámpagos y auras; además temblor de cámara, destellos de impacto, golpe de zoom y líneas de velocidad, estilo anime. Además, cada habilidad dibuja un **círculo mágico de luz neón**, las sagradas hacen caer **pilares de luz** con **estallidos de rayos solares**, y aparece un **cartel de título** con su nombre y su lema. Los ven todos los jugadores cercanos.
 
 | Hechizo | Animación | Efecto | Recarga |
 |---|---|---|---|
