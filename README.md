@@ -3,7 +3,7 @@
 Mundo de fantasía donde eres el **Viajero Interdimensional**: despiertas en una gran capital, eliges raza, subes de nivel en mazmorras, vendes tu botín al Gremio y saltas entre mundos llenos de castillos, ruinas futuristas, NPC y monstruos.
 
 - Minecraft **1.20.1** · Forge **47.4.29** · 89 archivos (mods, dependencias, Fresh Animations y shader)
-- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.2.0.mrpack
+- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.3.0.mrpack
 - **Launcher:** https://prismlauncher.org/download/windows/
 
 ## Cómo instalarlo
@@ -75,6 +75,7 @@ Detalle del Viajero Interdimensional:
 | **Vampiro Ancestral** | **Festín de Sangre** (20 s): zarcillos de sangre en 3D se clavan en los enemigos a 12 bloques, los desangran y te curan | Cada golpe te cura 1 corazón, +8 vida, +5 daño, +20% velocidad, visión nocturna, +50% magia de sangre |
 | **Titán** | **Pisotón Sísmico** (12 s): onda sísmica de roca que lanza por los aires a los enemigos (12 de daño) | +30 vida, +8 armadura, +4 dureza, +6 daño, inamovible, −10% velocidad |
 | **Elemental de Tormenta** | **Ira de la Tormenta** (25 s): 3 s de relámpagos ramificados sobre los enemigos (10 de daño cada uno) | +40% velocidad, +2 velocidad de ataque, +50% magia de rayo, inmune a rayos y caídas |
+| **Inmortal de la Espada** (cultivo inmortal) | **Loto de las Diez Mil Espadas** (45 s): siete anillos de espadas de luz se abren a tu alrededor como un loto, suben al cielo y caen sobre todos los enemigos en 24 bloques con un pilar de luz (35 de daño) | Vuelo libre, +20 vida, +6 daño, +1 velocidad de ataque, +25% velocidad, +200 maná, +50% poder de hechizos, −25% recarga, sin daño por caída |
 
 **Poderes del Viajero** (teclas en *Opciones → Controles → Origins*):
 
@@ -99,8 +100,13 @@ Kit inicial: libro de hechizos de cobre, cuaderno de Ars Nouveau, brújulas de e
 | Lanza del Vacío | Brazo atrás de la cabeza y lanzamiento con giro de torso | Rayo con doble hélice violeta de hasta 32 bloques: 10 de daño y empuje a todo lo que atraviesa, con onda sónica al impactar | 2 s |
 | Grieta Dimensional | Brazos extendidos, temblando para sostenerla | Portal ovalado con espiral interior que absorbe a los enemigos 3 s y luego implosiona (10 de daño) | 8 s |
 | Juicio Divino | Alzas los brazos al cielo y los bajas de golpe | Círculo dorado; caen rayos sagrados uno a uno sobre hasta 8 enemigos en 16 bloques (14 de daño, sin incendios) y te curas 3 corazones | 5 s |
+| Diez Mil Espadas (萬劍天降) | Alzas los brazos al cielo | Se abre un portal en el cielo donde miras y llueven ~300 espadas de luz que se clavan en el suelo (3 de daño por golpe, ~33 en total, y ralentiza) | 7 s |
+| Corte que Parte el Cielo (一劍斷天) | Brazo atrás y tajo con giro de torso | Una espada de 70 bloques se alza sobre las nubes y cae de un tajo: una grieta de luz de 80 bloques parte el terreno hacia donde miras, con un pilar de luz al final (40 de daño en la línea, sin romper bloques) | 10 s |
+| Formación de Mil Hojas (千刃劍陣) | Brazos extendidos sosteniendo la formación | Una cúpula de luz de 30 bloques con 64 espadas en sus nodos atrapa a los enemigos (los ralentiza y marca) y luego todas se lanzan contra ellos (3 golpes de 9) | 12 s |
 
-Los hechizos no dañan a jugadores, aldeanos, guardias, reclutas, NPC ni mascotas. Para pruebas o mapas, un operador puede usar `/execute as <entidad> at @s run arcanum lanzar <meteoro|escarcha|lanza|grieta>`.
+Las **artes de la espada** tienen un cartel de caligrafía gigante con anillos dorados, un subtítulo cinematográfico arriba de la pantalla y oscurecen los bordes de la pantalla mientras duran.
+
+Los hechizos no dañan a jugadores, aldeanos, guardias, reclutas, NPC ni mascotas. Para pruebas o mapas, un operador puede usar `/execute as <entidad> at @s run arcanum lanzar <meteoro|escarcha|lanza|grieta|juicio|espadas|corte|formacion|loto>`.
 
 ## Subir de nivel
 
