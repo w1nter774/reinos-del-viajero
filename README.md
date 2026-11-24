@@ -3,7 +3,7 @@
 Mundo de fantasía donde eres el **Viajero Interdimensional**: despiertas en una gran capital, eliges raza, subes de nivel en mazmorras, vendes tu botín al Gremio y saltas entre mundos llenos de castillos, ruinas futuristas, NPC y monstruos.
 
 - Minecraft **1.20.1** · Forge **47.4.29** · 89 archivos (mods, dependencias, Fresh Animations y shader)
-- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.3.0.mrpack
+- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.5.0.mrpack
 - **Launcher:** https://prismlauncher.org/download/windows/
 
 ## Cómo instalarlo
@@ -76,6 +76,8 @@ Detalle del Viajero Interdimensional:
 | **Titán** | **Pisotón Sísmico** (12 s): onda sísmica de roca que lanza por los aires a los enemigos (12 de daño) | +30 vida, +8 armadura, +4 dureza, +6 daño, inamovible, −10% velocidad |
 | **Elemental de Tormenta** | **Ira de la Tormenta** (25 s): 3 s de relámpagos ramificados sobre los enemigos (10 de daño cada uno) | +40% velocidad, +2 velocidad de ataque, +50% magia de rayo, inmune a rayos y caídas |
 | **Inmortal de la Espada** (cultivo inmortal) | **Loto de las Diez Mil Espadas** (45 s): siete anillos de espadas de luz se abren a tu alrededor como un loto, suben al cielo y caen sobre todos los enemigos en 24 bloques con un pilar de luz (35 de daño) | Vuelo libre, +20 vida, +6 daño, +1 velocidad de ataque, +25% velocidad, +200 maná, +50% poder de hechizos, −25% recarga, sin daño por caída |
+| **Heraldo de las Estrellas** | **Juicio de las Siete Estrellas** (90 s): tu cámara sube al espacio, una interfaz de enlace fija una a una las siete estrellas de la Osa Mayor y vuelves en picado: caen sobre el terreno una tras otra, cada una con su título ("IMPACTO 4 · MEGREZ"), 30 de daño en 7 bloques; al final las siete líneas de la constelación arden en el suelo (15 de daño) y la constelación queda grabada en el cielo | Vuelo libre, +16 vida, +4 daño, +20% velocidad, +250 maná, +60% poder de hechizos, −25% recarga, visión nocturna, sin daño por caída |
+| **Liche Supremo** | **Caída de la Luna** (120 s): tres círculos mágicos se apilan en el cielo y una luna de 36 bloques, con cráteres y grietas de lava, cae atravesándolos sobre el punto que miras: 45 de daño y fuego en 24 bloques. Queda una luna de bloques con grietas de magma que se desmorona | Vuelo libre, +12 vida, +6 armadura, +400 maná, +80% poder de hechizos, −35% recarga, +60% regeneración de maná, inmune al marchitamiento, respira bajo el agua, visión nocturna, sin daño por caída |
 
 **Poderes del Viajero** (teclas en *Opciones → Controles → Origins*):
 
@@ -103,10 +105,18 @@ Kit inicial: libro de hechizos de cobre, cuaderno de Ars Nouveau, brújulas de e
 | Diez Mil Espadas (萬劍天降) | Alzas los brazos al cielo | Se abre un portal en el cielo donde miras y llueven ~300 espadas de luz que se clavan en el suelo (3 de daño por golpe, ~33 en total, y ralentiza) | 7 s |
 | Corte que Parte el Cielo (一劍斷天) | Brazo atrás y tajo con giro de torso | Una espada de 70 bloques se alza sobre las nubes y cae de un tajo: una grieta de luz de 80 bloques parte el terreno hacia donde miras, con un pilar de luz al final (40 de daño en la línea, sin romper bloques) | 10 s |
 | Formación de Mil Hojas (千刃劍陣) | Brazos extendidos sosteniendo la formación | Una cúpula de luz de 30 bloques con 64 espadas en sus nodos atrapa a los enemigos (los ralentiza y marca) y luego todas se lanzan contra ellos (3 golpes de 9) | 12 s |
+| Abanico de las Mil Espadas (千劍開屏) | Brazos extendidos sosteniendo el abanico | Tres anillos con 63 espadas se abren a tu espalda como la cola de un pavo real y disparan en ráfaga contra lo que miras: las espadas vuelan con estela de luz y se quedan clavadas en el blanco (unos 40 golpes de 0,9, ~32 de daño, y ralentiza) | 9 s |
+| Reloj del Fin | Alzas los brazos al cielo y los bajas de golpe | Un reloj colosal con números romanos, runas, engranajes y tres agujas se alza delante de ti y otro de 44 bloques se dibuja en el suelo: **el tiempo se detiene 5 s** para todos los enemigos en 26 bloques (no se mueven ni atacan) y el mundo pierde el color; todo el daño que les hagas se acumula y, cuando el reloj estalla, lo reciben de golpe ×1,5 (+12) | 30 s |
+| Horizonte de Sucesos | Brazos extendidos, temblando para sostenerlo | Un agujero negro con anillo de fotones y un disco de acreción naranja que gira atrae durante 5 s todo lo que hay en 18 bloques (daño continuo); la luz del fondo se dobla a su alrededor como una lente, y colapsa con un destello (25 de daño) | 15 s |
+| Campana de Oro (金鐘罩體) | Brazos extendidos sosteniendo la campana | Una campana dorada gigante con bandas de runas crece desde el suelo a tu alrededor: durante 9 s **nada de fuera puede tocar a quien está dentro** (tú, otros jugadores, aldeanos y mascotas). Las flechas y bolas de fuego rebotan con una onda dorada y un tañido, y los enemigos que la tocan salen despedidos. Al final se hace añicos | 20 s |
+| Espada del Firmamento (天劍出鞘) | Alzas los brazos al cielo | Un sello con doce cuchillas se abre 44 bloques sobre el punto que miras; una espada colosal sale de él entre relámpagos y cae: se clava con una cúpula de choque, una columna de luz y grietas azules en el suelo (40 de daño en 10 bloques). Queda clavada unos segundos soltando descargas (3 de daño) | 25 s |
+| Fisión del Vacío | Alzas los brazos al cielo | Circuitos de luz violeta recorren el suelo en 30 bloques, dibujan un sello con un ojo y se alzan como una jaula (los enemigos quedan ralentizados). La pantalla se vuelve negra con el nombre del hechizo y todo estalla en una cúpula violeta con una columna de luz (55 de daño en el centro, 25 en el borde) | 60 s |
 
-Las **artes de la espada** tienen un cartel de caligrafía gigante con anillos dorados, un subtítulo cinematográfico arriba de la pantalla y oscurecen los bordes de la pantalla mientras duran.
+Las **artes de la espada** tienen un cartel de caligrafía gigante con anillos dorados, un subtítulo cinematográfico arriba de la pantalla y oscurecen los bordes de la pantalla mientras duran. La **magia suprema** (Reloj del Fin, Horizonte de Sucesos, Caída de la Luna y las Siete Estrellas) también tiene su subtítulo con cuenta atrás. Además, cada vez que alguien lanza un hechizo, **su nombre aparece flotando sobre su cabeza** con el brillo de su color, para que los demás jugadores sepan qué se les viene encima.
 
-Los hechizos no dañan a jugadores, aldeanos, guardias, reclutas, NPC ni mascotas. Para pruebas o mapas, un operador puede usar `/execute as <entidad> at @s run arcanum lanzar <meteoro|escarcha|lanza|grieta|juicio|espadas|corte|formacion|loto>`.
+Los golpes más fuertes (la luna, la espada del firmamento, el colapso del agujero negro y la fisión) tienen un **cuadro de impacto** al estilo manga: durante un instante la pantalla se vuelve tinta en blanco y negro. Mientras el Reloj del Fin detiene el tiempo, el mundo pierde de verdad el color (la magia sigue brillando). La Caída de la Luna deja una **luna de bloques** con grietas de magma que se desmorona a los pocos segundos (no rompe ni coloca bloques de verdad). Si usas un paquete de shaders de Oculus, estos filtros de pantalla se desactivan solos.
+
+Los hechizos no dañan a jugadores, aldeanos, guardias, reclutas, NPC ni mascotas. Para pruebas o mapas, un operador puede usar `/execute as <entidad> at @s run arcanum lanzar <meteoro|escarcha|lanza|grieta|juicio|espadas|corte|formacion|abanico|reloj|agujero|campana|firmamento|fision|loto|luna|estrellas>`.
 
 ## Subir de nivel
 
@@ -132,7 +142,9 @@ Probado en un servidor Forge dedicado con todos los mods de servidor:
 - ✅ El Maestro del Gremio aparece con sus 26 ofertas y no desaparece.
 - ✅ El salto entre mundos llega a Aether, Everbright, Everdawn, Undergarden y Nether con suelo seguro.
 - ✅ Arcanum del Viajero carga en el servidor dedicado y sus 4 hechizos hacen el daño esperado contra husks de prueba (Lanza −10 al de la línea, Escarcha −12 a todos, Meteoros y Grieta matan a los 3).
-- ⚠️ Las animaciones del cuerpo del báculo están escritas a mano y no se han visto en un cliente: puede que algún ángulo de brazo necesite ajuste.
+- ✅ (1.5.0) Probado en un cliente real con un ensayo automático que lanza cada hechizo con `/arcanum lanzar` y saca capturas: Reloj del Fin, Horizonte de Sucesos, Caída de la Luna, Campana de Oro, Espada del Firmamento, Fisión del Vacío, Abanico y la cámara de las Siete Estrellas se ven completos, sin errores en el log y a 70–118 FPS (1280×720).
+- ⚠️ Las razas Heraldo de las Estrellas y Liche Supremo no se han probado eligiéndolas en el juego (sus habilidades sí, con el comando), y los hechizos nuevos no se han probado en multijugador.
+- ⚠️ Las animaciones del cuerpo del báculo están escritas a mano: puede que algún ángulo de brazo necesite ajuste.
 - ⚠️ El salto al Otherside y la vuelta a la Superficie no se pudieron confirmar en la prueba sin jugador.
 - ⚠️ Sin probar con cliente: animaciones, shaders, Fresh Animations, mensajes de bienvenida y kit (necesitan un jugador conectado).
 - ℹ️ Errores inofensivos en el log: etiquetas de IDAS/CTOV que apuntan a mods opcionales que no están (BYG, Biomes O' Plenty) y dos errores que solo salen al apagar el servidor (MCA/Integrated API y Villager Recruits).
