@@ -2,8 +2,8 @@
 
 Mundo de fantasía donde eres el **Viajero Interdimensional**: despiertas en una gran capital, eliges raza, subes de nivel en mazmorras, vendes tu botín al Gremio y saltas entre mundos llenos de castillos, ruinas futuristas, NPC y monstruos.
 
-- Minecraft **1.20.1** · Forge **47.4.29** · 89 archivos (mods, dependencias, Fresh Animations y shader)
-- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.5.0.mrpack
+- Minecraft **1.20.1** · Forge **47.4.29** · 109 archivos (mods, dependencias, Fresh Animations y shaders)
+- **Descarga directa del modpack:** https://github.com/w1nter774/reinos-del-viajero/releases/latest/download/Reinos-del-Viajero-1.6.0.mrpack
 - **Launcher:** https://prismlauncher.org/download/windows/
 
 ## Cómo instalarlo
@@ -42,6 +42,22 @@ El Maestro del Gremio paga **esmeraldas** por:
 Y vende: frascos de experiencia, manzanas doradas, comida, ojos de ender y tótems.
 Un operador puede poner más gremios (por ejemplo en otras capitales) con `/reinos gremio`.
 
+## Gremio de Aventureros: encargos y rangos (1.6.0)
+
+En cada **aldea** (junto a la campana), **castillo** y **taberna** aparece un **Tablón del Gremio** la primera vez que llegas (también en mundos ya creados). Las tabernas, castillos y capitales traen además al Maestro del Gremio. Haz clic derecho en el tablón:
+
+- **Seis encargos al día**: dos de tu rango inferior, tres de tu rango y uno del siguiente. Cambian cada día de juego y cada tablón tiene los suyos.
+- **Tipos**:
+  - *Caza*: derrota N mobs de cualquier mod (Alex's Mobs, Ice and Fire, Cataclysm, Mowzie's, Legendary Monsters, Threateningly Mobs, Alex's Caves…).
+  - *La cabeza de…*: un jefe.
+  - *Encargo*: entrega objetos.
+  - *Expedición*: encuentra una estructura de los mods o un bioma especial de Terralith o Alex's Caves.
+  - *Limpieza*: derrota monstruos dentro de un bioma.
+- Llevas **hasta 3 encargos** a la vez; el progreso se cuenta solo y se **entrega en cualquier tablón**. Pasa el ratón sobre un encargo para ver la pista de dónde buscar.
+- **Rangos de F a S** según tu reputación: E 100 · D 300 · C 700 · B 1500 · A 3000 · S 6000. Puedes aceptar encargos de hasta un rango por encima del tuyo.
+- **Recompensas**: esmeraldas, experiencia y reputación. Los jefes dan además manzanas doradas, diamantes, manzanas encantadas o lingotes de netherita según el rango.
+- Fabricar un tablón: papel · esmeralda · papel / 3 tablones / palo · vacío · palo.
+
 ## Tu personaje
 
 Al entrar eliges **raza** y después tu **destino** (tu clase de protagonista). Hay 5 destinos, todos muy poderosos:
@@ -77,7 +93,8 @@ Detalle del Viajero Interdimensional:
 | **Elemental de Tormenta** | **Ira de la Tormenta** (25 s): 3 s de relámpagos ramificados sobre los enemigos (10 de daño cada uno) | +40% velocidad, +2 velocidad de ataque, +50% magia de rayo, inmune a rayos y caídas |
 | **Inmortal de la Espada** (cultivo inmortal) | **Loto de las Diez Mil Espadas** (45 s): siete anillos de espadas de luz se abren a tu alrededor como un loto, suben al cielo y caen sobre todos los enemigos en 24 bloques con un pilar de luz (35 de daño) | Vuelo libre, +20 vida, +6 daño, +1 velocidad de ataque, +25% velocidad, +200 maná, +50% poder de hechizos, −25% recarga, sin daño por caída |
 | **Heraldo de las Estrellas** | **Juicio de las Siete Estrellas** (90 s): tu cámara sube al espacio, una interfaz de enlace fija una a una las siete estrellas de la Osa Mayor y vuelves en picado: caen sobre el terreno una tras otra, cada una con su título ("IMPACTO 4 · MEGREZ"), 30 de daño en 7 bloques; al final las siete líneas de la constelación arden en el suelo (15 de daño) y la constelación queda grabada en el cielo | Vuelo libre, +16 vida, +4 daño, +20% velocidad, +250 maná, +60% poder de hechizos, −25% recarga, visión nocturna, sin daño por caída |
-| **Liche Supremo** | **Caída de la Luna** (120 s): tres círculos mágicos se apilan en el cielo y una luna de 36 bloques, con cráteres y grietas de lava, cae atravesándolos sobre el punto que miras: 45 de daño y fuego en 24 bloques. Queda una luna de bloques con grietas de magma que se desmorona | Vuelo libre, +12 vida, +6 armadura, +400 maná, +80% poder de hechizos, −35% recarga, +60% regeneración de maná, inmune al marchitamiento, respira bajo el agua, visión nocturna, sin daño por caída |
+| **Liche Supremo** | **Caída de la Luna** (120 s): tres círculos mágicos se apilan en el cielo y una luna de 36 bloques, con cráteres y grietas al rojo, cae atravesándolos sobre el punto que miras: 45 de daño y fuego en 24 bloques | Vuelo libre, +12 vida, +6 armadura, +400 maná, +80% poder de hechizos, −35% recarga, +60% regeneración de maná, inmune al marchitamiento, respira bajo el agua, visión nocturna, sin daño por caída |
+| **Slime Reencarnado** (1.6.0, réplica de Tensura) | **Depredador** (30 s): tu cuerpo se abre como una boca gigante, arrastra a los enemigos en 12 bloques y los devora (30 de daño; los débiles que no son jefes desaparecen). Te curas con lo devorado y ganas Fuerza II y Resistencia 30 s; el «Gran Sabio» te dice cuántas presas asimilaste. A los que escapan les caen los pilares de luz de **Megido** | Alas de demonio (vuelo libre), +12 vida, +4 armadura, +2 daño, +15% velocidad, inmune al veneno, al hambre y al marchitamiento, visión nocturna, sin daño por caída |
 
 **Poderes del Viajero** (teclas en *Opciones → Controles → Origins*):
 
@@ -106,11 +123,15 @@ Kit inicial: libro de hechizos de cobre, cuaderno de Ars Nouveau, brújulas de e
 | Corte que Parte el Cielo (一劍斷天) | Brazo atrás y tajo con giro de torso | Una espada de 70 bloques se alza sobre las nubes y cae de un tajo: una grieta de luz de 80 bloques parte el terreno hacia donde miras, con un pilar de luz al final (40 de daño en la línea, sin romper bloques) | 10 s |
 | Formación de Mil Hojas (千刃劍陣) | Brazos extendidos sosteniendo la formación | Una cúpula de luz de 30 bloques con 64 espadas en sus nodos atrapa a los enemigos (los ralentiza y marca) y luego todas se lanzan contra ellos (3 golpes de 9) | 12 s |
 | Abanico de las Mil Espadas (千劍開屏) | Brazos extendidos sosteniendo el abanico | Tres anillos con 63 espadas se abren a tu espalda como la cola de un pavo real y disparan en ráfaga contra lo que miras: las espadas vuelan con estela de luz y se quedan clavadas en el blanco (unos 40 golpes de 0,9, ~32 de daño, y ralentiza) | 9 s |
-| Reloj del Fin | Alzas los brazos al cielo y los bajas de golpe | Un reloj colosal con números romanos, runas, engranajes y tres agujas se alza delante de ti y otro de 44 bloques se dibuja en el suelo: **el tiempo se detiene 5 s** para todos los enemigos en 26 bloques (no se mueven ni atacan) y el mundo pierde el color; todo el daño que les hagas se acumula y, cuando el reloj estalla, lo reciben de golpe ×1,5 (+12) | 30 s |
+| Reloj del Fin | Alzas los brazos al cielo y los bajas de golpe | Un reloj colosal con números romanos, runas, engranajes y tres agujas se alza delante de ti y otro de 44 bloques se dibuja en el suelo: **el tiempo se detiene 5 s** para todos los enemigos en 26 bloques (no se mueven ni atacan) y la pantalla pierde el color; todo el daño que les hagas se acumula y, cuando el reloj estalla, lo reciben de golpe ×1,5 (+12) | 30 s |
 | Horizonte de Sucesos | Brazos extendidos, temblando para sostenerlo | Un agujero negro con anillo de fotones y un disco de acreción naranja que gira atrae durante 5 s todo lo que hay en 18 bloques (daño continuo); la luz del fondo se dobla a su alrededor como una lente, y colapsa con un destello (25 de daño) | 15 s |
 | Campana de Oro (金鐘罩體) | Brazos extendidos sosteniendo la campana | Una campana dorada gigante con bandas de runas crece desde el suelo a tu alrededor: durante 9 s **nada de fuera puede tocar a quien está dentro** (tú, otros jugadores, aldeanos y mascotas). Las flechas y bolas de fuego rebotan con una onda dorada y un tañido, y los enemigos que la tocan salen despedidos. Al final se hace añicos | 20 s |
 | Espada del Firmamento (天劍出鞘) | Alzas los brazos al cielo | Un sello con doce cuchillas se abre 44 bloques sobre el punto que miras; una espada colosal sale de él entre relámpagos y cae: se clava con una cúpula de choque, una columna de luz y grietas azules en el suelo (40 de daño en 10 bloques). Queda clavada unos segundos soltando descargas (3 de daño) | 25 s |
 | Fisión del Vacío | Alzas los brazos al cielo | Circuitos de luz violeta recorren el suelo en 30 bloques, dibujan un sello con un ojo y se alzan como una jaula (los enemigos quedan ralentizados). La pantalla se vuelve negra con el nombre del hechizo y todo estalla en una cúpula violeta con una columna de luz (55 de daño en el centro, 25 en el borde) | 60 s |
+| Juicio Orbital (1.6.0) | Alzas los brazos al cielo | Una mira roja marca el suelo que miras y un rayo guía baja del cielo; a los 2 s cae el disparo desde la órbita: columna roja, cúpula y onda (48 de daño en 8 bloques, 18 hasta 15, quema). Después se abren cuatro anillos de púas de azufre (7 de daño cada uno) | 30 s |
+| Corte del Juicio (次元斬, 1.6.0) | Lanzas | Siete tajos dimensionales violetas rasgan el aire alrededor del punto que miras (6 de daño cada uno y frenan a los enemigos) y al final el espacio se rompe como un cristal (20 de daño en 7 bloques) | 15 s |
+| Golpe Serio (1.6.0) | Lanzas | Un solo puñetazo: una onda dorada recorre 60 bloques en línea recta y barre todo lo que toca (60 de daño y los lanza lejos). Si miras al cielo, las nubes se abren | 45 s |
+| Supernova (1.6.0) | Alzas los brazos al cielo | Un núcleo negro con anillos magenta flota sobre el punto que miras, arrastra a los enemigos y levanta la tierra; a los 3 s estalla como una estrella moribunda (42 de daño en el centro, 20 en 18 bloques) | 45 s |
 
 Las **artes de la espada** tienen un cartel de caligrafía gigante con anillos dorados, un subtítulo cinematográfico arriba de la pantalla y oscurecen los bordes de la pantalla mientras duran. La **magia suprema** (Reloj del Fin, Horizonte de Sucesos, Caída de la Luna y las Siete Estrellas) también tiene su subtítulo con cuenta atrás. Además, cada vez que alguien lanza un hechizo, **su nombre aparece flotando sobre su cabeza** con el brillo de su color, para que los demás jugadores sepan qué se les viene encima.
 
@@ -118,13 +139,90 @@ Los golpes más fuertes (la luna, la espada del firmamento, el colapso del aguje
 
 Los hechizos no dañan a jugadores, aldeanos, guardias, reclutas, NPC ni mascotas. Para pruebas o mapas, un operador puede usar `/execute as <entidad> at @s run arcanum lanzar <meteoro|escarcha|lanza|grieta|juicio|espadas|corte|formacion|abanico|reloj|agujero|campana|firmamento|fision|loto|luna|estrellas>`.
 
+## Más poderes de la colección (1.6.0, también en Arcanum)
+
+Réplicas propias de mods de la colección de TikTok que no existen para Forge 1.20.1. Todos se integran con el resto del pack: los jefes de los encargos sueltan frutas, el Sistema cuenta los monstruos de cualquier mod y Lumen es un jefe más del Gremio.
+
+**Frutas elementales** (estilo SPMovesets). Hay cinco frutas: Magma, Glacial, Cosmos, Divina y Sombra. Al comer una ganas su poder y pierdes el de la fruta anterior; solo se tiene una a la vez. Las técnicas van en las teclas **Z** y **X**.
+
+| Fruta | Z | X |
+|---|---|---|
+| Magma (炎) | **Puño Volcánico** (6 s): un chorro de lava en línea recta (14 de daño y quema) | **Erupción** (15 s): onda de fuego y anillos de roca a tu alrededor (16 en 8 bloques) |
+| Glacial (氷) | **Lanza de Hielo** (6 s): rayo helado que congela y frena (12) | **Era Glacial** (18 s): anillos de cristales de hielo (14 en 10 bloques, ralentiza y congela) |
+| Cosmos (星) | **Lluvia de Estrellas** (8 s): seis meteoros caen donde miras | **Gravedad Cero** (18 s): los enemigos flotan y luego caen de golpe (12) |
+| Divina (聖) | **Lanza Sagrada** (8 s): un pilar de luz donde miras (16; 24 a no muertos) | **Alas del Serafín** (30 s): caída lenta, regeneración, resistencia y salto; cura a tus aliados |
+| Sombra (影) | **Zarcillos de Sombra** (8 s): atrapan a seis enemigos, los marchitan y los acercan (9) | **Dominio de las Sombras** (25 s): 5 s de oscuridad que hiere, ciega y frena en 12 bloques |
+
+Se consiguen así: los **jefes** (los de los encargos del Gremio y el Dragón del End) sueltan una al azar el 25% de las veces, y aparecen en el 3% de los **cofres** de mazmorras, fortalezas, ciudades antiguas, bastiones, mansiones, templos, castillos y torres.
+
+**Cultivo inmortal** (estilo Renegade Immortal). Se hace con el **Sutra del Inmortal** (receta: hilo, papel y una esmeralda):
+
+- **Mantén clic derecho** para meditar: reúnes qi (más rápido de noche) y subes por las nueve capas de la **Condensación de Qi**. Después vienen **Fundación**, **Núcleo Dorado**, **Alma Naciente** y **Transformación del Alma**, con tres etapas cada uno, y al final la **Ascensión**.
+- Cada reino nuevo exige sobrevivir a la **Tribulación Celestial**: el cielo se oscurece y caen de 4 a 12 rayos sobre ti. Si mueres, pierdes la mitad del qi.
+- Cada paso da vida, daño, armadura y velocidad permanentes.
+- **Agachado + clic derecho**: **Lanza de Tormenta** desde la Fundación (6 s).
+- **Agachado + clic derecho mirando al cielo**: **Dominio del Trueno** desde el Núcleo Dorado (30 s): durante 8 s caen rayos sobre tres enemigos de cada vez.
+
+**Ventana del Sistema** (estilo Solo Leveling). Pulsa **N** y verás una ventana azul con:
+
+- Tu nivel, tu rango de cazador (E, D, C, B, A, S y Monarca), tu rango del Gremio, tu reino de cultivo y tu fruta.
+- **Misión diaria** «Preparación para volverse fuerte»: derrota 10 monstruos, recorre 1000 bloques y usa poderes 3 veces (cuentan el báculo, la tecla J, las frutas, el cultivo, la varita y la Mano de Dios). La recompensa son 3 puntos y la recuperación total. Se renueva cada día del juego.
+- Los monstruos de cualquier mod dan experiencia del Sistema, y los jefes cinco veces más. Cada nivel da 3 puntos.
+- Reparte los puntos con los botones **+**:
+  - Fuerza: daño.
+  - Agilidad: velocidad de movimiento y de ataque.
+  - Vitalidad: vida.
+  - Inteligencia: −1% de recarga de frutas y técnicas por punto, hasta −40%.
+  - Percepción: suerte y armadura.
+
+**Varita de Trazos** (estilo Drawn Magic; receta: dos palos y un fragmento de amatista). Mantén clic derecho y dibuja moviendo la vista: la estela queda flotando delante de ti. Al soltar, la forma decide el hechizo:
+
+- **Círculo**: Égida Arcana, una cúpula de escudo.
+- **Línea**: Rayo Arcano.
+- **Zigzag**: Tormenta Trazada, rayos sobre cinco enemigos.
+- **Triángulo**: Sello de Fuego, que explota en llamas.
+
+**Mano de Dios** (estilo Hand of God; receta: bloques de oro, estrella del Nether y tótem). Clic derecho abre una **rueda de ocho poderes divinos**. Eliges con el ratón o con las teclas 1 a 8:
+
+- Rayo del Juicio.
+- Meteoro.
+- Terremoto.
+- Diluvio, que desata una tormenta o despeja el cielo.
+- Sol y Luna, que trae la noche o el amanecer.
+- Bendición, que cura a tus aliados.
+- Génesis, que hace brotar cultivos, hierba y flores.
+- Ira Divina, ocho rayos.
+
+Los rayos de la Mano no incendian aldeas.
+
+**Amuletos de Norine** (cadenas, lingote de oro y una gema). Se llevan en la **ranura de collar de Curios** o en la otra mano, y dejan un aura de su color:
+
+- **Fénix**: inmune al fuego. Una vez cada 10 minutos **te salva de la muerte** con una explosión de llamas.
+- **Marea**: respiras bajo el agua, nadas como un delfín y tienes el poder del conducto.
+- **Vendaval**: velocidad, saltos altos y ningún daño por caída.
+- **Eclipse**: visión nocturna, fuerza de noche e invisibilidad al agacharte.
+
+**Lumen, el Sol Caído** (jefe final estilo LUMORA). Usa un **Fragmento de Sol** de día y a cielo abierto: se fabrica con piedra luminosa y una estrella del Nether. Tras un ritual de luz, un sol desciende del cielo con su barra de jefe (600 de vida).
+
+- **Fase 1**: pilares solares bajo cada jugador, llamaradas y lluvia de fuego. Flota a nueve bloques, pero cada 12 s baja unos segundos a ras de suelo: es el momento de golpearlo cuerpo a cuerpo (el resto del tiempo, con arco o hechizos).
+- **Fase 2, al 50%**: empieza el **Eclipse**. El sol se vuelve negro con una corona violeta, el cielo se oscurece y ataca más rápido. Añade la **Supernova**, una onda con anillos de púas, y la **Corona Negra**, ocho rayos.
+- **Botín**: el **Báculo del Santo**, una estrella del Nether, manzanas encantadas y quizá una fruta. El Báculo lanza el **Juicio Solar** (18 de daño, 27 a no muertos) y, agachado, la **Bendición Solar**, que cura al grupo.
+- Lumen también es un **encargo de jefe de rango A y S** del Gremio.
+
+Pruebas para operadores: `/arcanum fruta <magma|glacial|cosmos|divina|sombra>`, `/arcanum poder <1|2>`, `/arcanum sistema <abrir|xp N|puntos N|mision>`, `/arcanum cultivo <paso N|qi N|tribulacion|tecnica 0|1>`, `/arcanum mano <0-7>`, `/arcanum trazo <circulo|linea|zigzag|triangulo>` y `/summon arcanum_viajero:lumen`.
+
 ## Subir de nivel
 
 **Pufferfish's Skills** añade árboles de habilidades. Ganas experiencia de habilidad matando monstruos, explorando mazmorras y minando, y la gastas en mejoras. Incluye los árboles por defecto (combate, minería…) y **4 árboles de magia para Iron's Spells**. Busca la tecla del menú de habilidades en *Controles*.
 
 ## Qué trae
 
-- **Magia con animaciones**: Iron's Spells 'n Spellbooks (animaciones de lanzamiento, más de 100 hechizos), Ars Nouveau (crea tus propios hechizos), Player Animator, Better Combat, Not Enough Animations, Fresh Animations (EMF/ETF) y el shader Complementary Reimagined.
+- **Magia con animaciones**: Iron's Spells 'n Spellbooks (animaciones de lanzamiento, más de 100 hechizos), Ars Nouveau (crea tus propios hechizos), Player Animator, Not Enough Animations, Fresh Animations (EMF/ETF) y los shaders Complementary Reimagined (por defecto) y Bliss (alternativo, en Opciones > Video > Shaders).
+- **Combate (1.6.0)**: **Epic Fight** sustituye a Better Combat: combate estilo souls con esquivas, fijar objetivo (pulsa R para alternar entre modo minería y modo combate) y habilidades de arma. Con Weapons of Miracles, las armas de Devil May Cry y Marium's Soulslike Weaponry (armas legendarias y jefes souls).
+- **Novedades de la colección de TikTok (1.6.0)**:
+  - *Clima y biomas*: tormentas, viento y tornados (Weather, Storms & Tornadoes; los tornados arrancan vegetación pero no tus casas) y los biomas de Terralith.
+  - *Criaturas y jefes*: dragones de Ice and Fire, Threateningly Mobs, Legendary Monsters, True Ending (nuevo Dragón del End) y Champions (monstruos élite con poderes).
+  - *Rarezas*: el simbionte (Symbiote), implantes ciberpunk con ripperdoc (Project: Edgerunner), volver al punto guardado como en Re:Zero (MineZero) y aldeanos que curan a los gólems.
 - **Capitales y estructuras medievales**: Luki's Grand Capitals, Towns and Towers, aldeas renovadas (CTOV), Dungeons and Taverns (tabernas, criptas y fortines), Medieval Buildings, Moog's Voyager Structures, When Dungeons Arise, todos los YUNG's, Integrated Dungeons and Structures y L_Ender's Cataclysm (jefes).
 - **Futurista**: Ad Astra (cohetes, planetas y estaciones), Alex's Caves (búnkeres, robots, cuevas tóxicas y magnéticas) y Create (máquinas).
 - **Otros mundos**: Aether, Blue Skies, Undergarden, Deeper and Darker y los planetas de Ad Astra.
@@ -134,7 +232,43 @@ Los hechizos no dañan a jugadores, aldeanos, guardias, reclutas, NPC ni mascota
 
 ## Estado de las pruebas
 
-Probado en un servidor Forge dedicado con todos los mods de servidor:
+**1.6.0** (cliente real con capturas):
+
+- ✅ Arranca con los 21 mods nuevos y Epic Fight en lugar de Better Combat, sin crashes.
+- ✅ Un mundo nuevo con Terralith se crea y se vuelve a abrir (antes fallaba con «Failed to read level data» por Citadel).
+- ✅ El Tablón del Gremio aparece solo en la capital y la pantalla funciona: aceptar 3 encargos, ver el progreso, entregar con recompensa y ascender de rango con su cartel.
+- ✅ Project Edgerunner y Villager Recruits ya no llenan el registro de errores (de más de 8000 líneas de error a ninguna de esos mods).
+- ✅ Al entrar a un mundo ya no salen la configuración inicial de Edgerunner (cara ciber y nivel de sangre) ni el anuncio de Terralith.
+- ✅ Los cuatro hechizos nuevos (Juicio Orbital, Corte del Juicio, Golpe Serio y Supernova) funcionan, con su cartel y su cuadro de tinta, a 96–104 FPS.
+- ✅ Frutas elementales: las cinco frutas y sus diez técnicas, lanzadas con los paquetes de las teclas Z y X, con su cartel, sus efectos 3D y su daño.
+- ✅ Ventana del Sistema:
+  - Se abre con la tecla N.
+  - El botón + reparte los puntos.
+  - La misión diaria se completa: 10 monstruos, 1000 bloques y 3 poderes.
+  - Subir de nivel da 3 puntos por nivel.
+- ✅ Cultivo: la Tribulación Celestial (4 rayos) lleva a la Fundación, y funcionan la Lanza de Tormenta y el Dominio del Trueno.
+- ✅ Mano de Dios: la rueda se dibuja y al hacer clic en un sector se lanza su poder por la red. Se probaron los ocho poderes, incluidos el diluvio y la noche.
+- ✅ Varita de Trazos: las cuatro formas lanzan su hechizo. El reconocedor acierta el 100% de círculos, líneas y triángulos y el 94% de zigzags en 400 trazos de prueba con temblor.
+- ✅ Amuletos: con el Fénix en la otra mano tienes resistencia al fuego, y con la Marea en la ranura de collar de Curios respiras bajo el agua.
+- ✅ Lumen: tiene barra de jefe y ataques de fase 1. Al 50% pasa al Eclipse (barra violeta, cielo oscuro y cartel) y al morir sale su cartel.
+- ✅ Slime Reencarnado: con la raza puesta, la tecla J lanza el Depredador (arrastra, devora 3 presas y lanza Megido).
+- ✅ Ninguna de estas réplicas deja errores en el registro.
+- ✅ Se probó también con entrada real, con el clic derecho mantenido y la cámara moviéndose:
+  - La Varita de Trazos reconoce el círculo, la línea, el zigzag y el triángulo.
+  - Meditar con el Sutra sube de capa.
+  - Comer una fruta da su poder.
+  - El Fragmento de Sol invoca a Lumen con su ritual.
+  - El Báculo del Santo lanza el Juicio Solar.
+  - La rueda de la Mano de Dios se abre desde el objeto.
+- ⚠️ Réplicas sin probar todavía:
+  - Que el Fénix salve de la muerte, la caída sin daño del Vendaval y la invisibilidad del Eclipse al agacharse.
+  - Las técnicas del Sutra con agachado + clic: solo se probaron con su comando.
+  - Las frutas que sueltan los jefes y las de los cofres.
+  - Todo ello en multijugador.
+- ℹ️ Los dragones de Ice and Fire atacan aldeas (en una prueba quemaron a varios aldeanos de MCA). El pack limita sus destrozos a bloques débiles para que no arrasen las aldeas ni los castillos.
+- ⚠️ Sin probar todavía: cazar de verdad cada tipo de mob de los encargos (el conteo es el mismo para todos), multijugador y los mods nuevos uno por uno a fondo.
+
+**Versiones anteriores**, probado en un servidor Forge dedicado con todos los mods de servidor:
 
 - ✅ El servidor arranca sin crashes con los 81 mods de servidor.
 - ✅ Los 23 poderes de razas y del Viajero se cargan (un ID falso da error, así que la validación es real).
